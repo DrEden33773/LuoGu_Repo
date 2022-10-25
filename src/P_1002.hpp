@@ -47,10 +47,10 @@ public:
     long long DP_FUNC(const long long& x, const long long& y) {
         if (control_point.find(std::make_pair(x, y)) != control_point.end()) {
             // find both coordinates!
-            return 0LL;
+            return 0;
         }
         if (!x && !y) {
-            return 1LL;
+            return 1;
         } else if (!x) {
             return DP_FUNC(x, y - 1);
         } else if (!y) {
