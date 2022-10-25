@@ -1,6 +1,17 @@
 [
-{
-  "directory": "e:\\CollegeLearningRepo\\LuoGu_Repo",
-  "arguments": ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX86\\x86\\cl.exe", "/c", "/EHsc", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x86\\debug\\compile.LuoGu_Repo.pdb", "/Od", "/std:c++20", "/Fobuild\\.objs\\LuoGu_Repo\\windows\\x86\\debug\\src\\main.cpp.obj", "src\\main.cpp"],
-  "file": "src\\main.cpp"
-}]
+  {
+    "directory": "/home/eden/CollegeLearningRepo/LuoGu_Repo",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-m64",
+      "-g",
+      "-O0",
+      "-std=gnu++20",
+      "-o",
+      "build/.objs/LuoGu_Repo/linux/x86_64/debug/src/main.cpp.o",
+      "src/main.cpp"
+    ],
+    "file": "src/main.cpp"
+  }
+]
