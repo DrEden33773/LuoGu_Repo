@@ -9,8 +9,10 @@
  *
  */
 
+#include "NumberTriangles.hpp"
 #include "P_1002.hpp"
 
 int main(int argc, char** argv) {
-    P_1002::solution();
+    // P_1002::solution();
+    NumberTriangles::solution();
 }
