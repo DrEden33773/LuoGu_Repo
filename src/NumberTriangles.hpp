@@ -14,7 +14,7 @@
 #pragma once
 
 // DP => deep to surface
-// f(x, y) = max(f(x + 1, y), f(x + 1, y + 1)) + f(x, y)
+// f(x, y) = max<f(x + 1, y), f(x + 1, y + 1)> + f(x, y)
 // f(x_lim, y_lim) = f(x_lim, y_lim)
 
 #include <algorithm>
