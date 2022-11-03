@@ -27,8 +27,10 @@ class P_1002 {
 
 public:
     void input() {
-        long long des_X, des_Y;
-        long long horse_X, horse_Y;
+        long long des_X   = 0;
+        long long des_Y   = 0;
+        long long horse_X = 0;
+        long long horse_Y = 0;
 
         std::cin >> des_X >> des_Y >> horse_X >> horse_Y;
 

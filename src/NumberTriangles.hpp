@@ -44,7 +44,7 @@ public:
         }
     }
     void iteration_dp() {
-        for (int x = depth - 2; x >= 0; --x) {
+        for (int x = (depth - 1) - 1; x >= 0; --x) {
             for (int y = 0; y < x + 1; ++y) {
                 data[x][y] = std::max(data[x + 1][y], data[x + 1][y + 1]) + data[x][y];
             }
