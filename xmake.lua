@@ -3,7 +3,7 @@ add_rules("mode.debug", "mode.release")
 target("LuoGu_Repo")
     set_kind("binary")
     add_files("src/*.cpp")
-    set_languages("c17", "gnu++20")
+    set_languages("c17", "gnuxx20")
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
 --
